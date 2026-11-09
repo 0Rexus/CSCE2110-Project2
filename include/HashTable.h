@@ -17,10 +17,11 @@ private:
 public:
     HashTable(std::size_t capacity);
     bool insert(const Facility& facility);
-const Facility* findById(const std::string& id) const;
-std::vector<Facility> findByName(const std::string& name) const;
+    const Facility* findById(const std::string& id) const;
+    std::vector<Facility> findByName(const std::string& name) const;
     std::vector<Facility> findByBuilding(const std::string& building) const;
     std::vector<Facility> findByCategory(const std::string& category) const;
+    std::size_t getCapacity() const;
     std::size_t getEntryCount() const;
     std::size_t getCollisionCount() const;
     void printCategoryReport() const;
