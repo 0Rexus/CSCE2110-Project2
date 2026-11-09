@@ -1,0 +1,17 @@
+# Compiled binaries
+campus
+*.o
+*.out
+*.exe
+test_hash
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Archive files
+*.zip
+*.tar.gz
