@@ -1,0 +1,12 @@
+CSCE 2110 Project 2 - Milestone 1 Contributions
+
+Liam Roche:
+- Campus Graph (CampusGraph.h, CampusGraph.cpp)
+- BFS Algorithm
+
+Ryan Anyanga:
+- Facility Class (Facility.h, Facility.cpp)
+- Hash Table (HashTable.h, HashTable.cpp)
+
+Rabin Chaudhary:
+- Department Tree (DepartmentTree.h, DepartmentTree.cpp)
