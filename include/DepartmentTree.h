@@ -28,7 +28,8 @@ public:
     DepartmentTree();
     ~DepartmentTree(); 
 
-
+    bool isEmpty() const;
+    bool hasDepartment(const std::string& name);
     bool addDepartment(const std::string& name,
                        const std::string& parentName);
 

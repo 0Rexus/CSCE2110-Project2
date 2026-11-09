@@ -46,6 +46,14 @@ void DepartmentTree::deleteTree(DepartmentNode* node) {
     delete node;
 }
 
+bool DepartmentTree::isEmpty() const {
+    return root == nullptr;
+}
+
+bool DepartmentTree::hasDepartment(const string& name) {
+    return findDepartment(root, name) != nullptr;
+}
+
 bool DepartmentTree::addDepartment(const string& name,
                                    const string& parentName) {
     string departmentName = trim(name);

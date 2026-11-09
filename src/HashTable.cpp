@@ -123,6 +123,11 @@ std::vector<Facility> HashTable::findByBuilding(const std::string& building) con
 
     return results;
 }
+
+std::size_t HashTable::getCapacity() const {
+    return capacity;
+}
+
 // Return the number of stored facilities
 std::size_t HashTable::getEntryCount() const {
     return entryCount;
